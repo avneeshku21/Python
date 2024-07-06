@@ -1,4 +1,13 @@
-# Airthmetic Operators
+# Arithmetic operators
+# Assignment operators
+# Comparison operators
+# Logical operators
+# Identity operators
+# Membership operators
+# Bitwise operators
+
+
+# ***************Arithmetic operators
 print(5+6)
 print(5-6)
 print(5*6)
@@ -28,4 +37,15 @@ print(2&3)
 
 print (2|3)
 
+# bitwise xor
+print(2^3) # dono same honge  to 0 alg honge to 1
+print(~3)
+print(3>>2) #left shift
+print(3<<2) #right Shift
 
+
+#  Assignment Operator
+
+a=2
+a+=2
+print (a)
