@@ -10,6 +10,11 @@
 # elif a == b:
 #   print("a and b are equal")
 
+a = 500
+b=110
+c=100
+if a > b and c > a:
+  print("Both conditions are True")
 
 a = 200
 b = 33
