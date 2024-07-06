@@ -49,3 +49,9 @@ print(3<<2) #right Shift
 a=2
 a+=2
 print (a)
+
+# **********Membership Operator
+#in/Not In
+print('D' in 'Delhi')
+print('D' not in 'Delhi')
+print(1 in [1,2,3,4,5])
