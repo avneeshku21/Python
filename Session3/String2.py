@@ -54,3 +54,6 @@ print('Hi my name is Avneesh'.split('is'))
 " ".join(['hi', 'my', 'name', 'is', 'AVneesh'])
 
 print('hi my name is avneesh'.replace('avneesh','campusx'))
+
+
+print('avneeshh...........'.strip()) # is remove space
