@@ -35,3 +35,22 @@ name = 'Avneesh'
 gender = 'male'
 
 print('Hi my name is {} and I am a {}'.format(name,gender))
+
+
+#*****isalnum/ isalpha/ isdigit/ isidentifier
+print('avneesh1234%'.isalnum())
+print('avneesh1234'.isalnum())
+
+
+print('avneesh'.isalpha())
+
+print('123abc'.isdigit())
+
+print('first-name'.isidentifier())
+
+
+print('Hi my name is Avneesh'.split('is'))
+
+" ".join(['hi', 'my', 'name', 'is', 'AVneesh'])
+
+print('hi my name is avneesh'.replace('avneesh','campusx'))
