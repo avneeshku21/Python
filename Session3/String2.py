@@ -23,3 +23,15 @@ s = 'hello world'
 # print('Hello Wolrd'.lower())
 
 # print('HeLlO WorLD'.swapcase())
+
+# ******************count/find/index
+print('hi my name is nitish'.split())
+
+print(" ".join(['hi', 'my', 'name', 'is', 'Avneesh']))
+
+'hi my name is avneesh'.replace('aviikumar','campusx')
+
+name = 'Avneesh'
+gender = 'male'
+
+print('Hi my name is {} and I am a {}'.format(name,gender))
