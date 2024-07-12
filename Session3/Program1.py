@@ -13,3 +13,4 @@
 s=input("Enter String ")
 pos =s.index('@')
 print(s[0:pos])
+
