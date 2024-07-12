@@ -1,6 +1,5 @@
-row = int(input("Enter number of rows: "))
-
-# for i in range(1,row):
-#     for j in range(1,i+1):
-#         print(j,end="")
-#     print()
+s=input("Enter String ")
+# counter=0
+# for i in s:
+#     counter+=1
+# print('Length',counter)
