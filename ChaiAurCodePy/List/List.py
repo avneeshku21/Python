@@ -8,10 +8,22 @@
 # print(type(mylist))
 
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
-print(thislist)
+#print(thislist)
 
 #*********Important*************************
-tea_varites=["Black", "Green Tea", " Oolong","white"]
+tea_varites=["Black", "Green Tea","white"]
 tea_varites[1:3]=["harbal","Milk Tea"]
 print(tea_varites)
+
+# for tea in tea_varites:
+#     print(tea, end=" ")
+#     if "Oolong" in tea_varites:
+#         print("I HAVE OOLONG TEA")
+# tea_varites.append("Oolong Tea")
+
+tea_varites.insert(1,"kadak Chai")
+print(tea_varites)
+
+
+
 
