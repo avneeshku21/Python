@@ -17,3 +17,14 @@
 # .__repr__() provides the official string representation of an object, aimed at the programmer.
  
 # .__str__() provides the informal string representation of an object, aimed at the user.
+
+
+# trunc -: trunc goes towards 0, its a Math library>>
+
+#random librry
+#shuffle ,choice
+
+# *******************important
+
+# Decimal context
+# fraction libray
