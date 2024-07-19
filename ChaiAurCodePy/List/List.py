@@ -9,3 +9,9 @@
 
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
+
+#*********Important*************************
+tea_varites=["Black", "Green Tea", " Oolong","white"]
+tea_varites[1:3]=["harbal","Milk Tea"]
+print(tea_varites)
+
