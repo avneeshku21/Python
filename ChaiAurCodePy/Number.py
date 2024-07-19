@@ -9,6 +9,7 @@
 # print(int(a))
 
 # These methods are .__repr__() and .__str__().
+# Str VS repr
 
 # The .__repr__() method returns a detailed description for a programmer who needs to maintain and debug the code. 
 # The .__str__() method returns a simpler description with information for the user of the program.
