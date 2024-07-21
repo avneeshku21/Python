@@ -28,7 +28,7 @@ chai_type["Earl Grey"]="Citrus"
 # print(chai_type)
 
 #*****pop method
-# chai_type.popitem()
+# chai_type.popitem()// pop last item
 # chai_type.pop("Ginger")
 # del chai_types["Green"]
 
