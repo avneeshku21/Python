@@ -11,6 +11,8 @@ chai_type={
 
 chai_type["Green"]="Fresh"
 
+
+#*** *******Loops
 # for chai in chai_type:
 #     print(chai,chai_type[chai])
 
