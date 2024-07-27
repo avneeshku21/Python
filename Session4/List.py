@@ -48,6 +48,39 @@
 #*******Using Type Coversion
 #print(list('Hello')) #['H', 'e', 'l', 'l', 'o']
 
+# Accessing item from a list
+# list=[1,2,3,4,5,]
+# print(list[0])
+
+# slicing
+# l=[1,2,3,4,5,6,7]
+# print(l[-3:])
+# print(l[0::2])
+
+#********** Adding nem Element
+
+# **Append - Append me ham list m ek baar me ek element ko list k end m add kr skte hai
+# append me agrr ham multiple store krte hai to  bo ek purri list hi add kr deta hai
+
+# l=[1,2,3,4,5,6,7]
+# l.append(10)
+#l.append([10,11,12,13,14])
+# print(l)
+
+
+# **Extend
+# Extend me ek sath multiple  item ko list m add kr skte hai
+l=[1,2,3,4,5,6,7]
+l.extend([10,11,12,13,14])
+print(l)
+
+
+# ***insert
+#insert m ek baar m ek chiz add hogi multiple chiz add nhi hogi
+
+# L=[1,2,3,4,5,6,7,8]
+# L.insert(1,100)
+# print(L)
 
 
 
