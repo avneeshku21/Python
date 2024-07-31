@@ -70,9 +70,9 @@
 
 # **Extend
 # Extend me ek sath multiple  item ko list m add kr skte hai
-l=[1,2,3,4,5,6,7]
-l.extend([10,11,12,13,14])
-print(l)
+# l=[1,2,3,4,5,6,7]
+# l.extend([10,11,12,13,14])
+# print(l)
 
 
 # ***insert
@@ -82,9 +82,78 @@ print(l)
 # L.insert(1,100)
 # print(L)
 
+#********************Editing in Items in A list
+# l=[1,2,3,4,5,6]
+# l[-1]=900
+# l[:4]=[200,400,600,700]
+# print(l)
+
+# *****Deleting items from a List
+# l=[1,2,3,4,5,6]
+# del(l[1])
+# del(l[1:3]) 
+# print(l)
+
+# *****Remove
+# l=[1,2,3,4,5,6]
+# l.remove(4)
+# print(l)
+
+#******pop 
+#pop last bale item  ko delt krta hai
+
+#****clear 
+# list ko empty bnaa deta hai
 
 
+#********* ***********OPERATIONS ON list
+#  AIRTHMETIC  + *
+# MEMBERSHIP
+# LOOP
+# l1=[1,2,3,4,5]
+# l2=[5,6,7,8]
+# print(l1*3)
 
+# **Membership
+
+# l1=[1,2,3,4,5]
+# l2=[5,6,7,8]
+# print(5 in l2)
+# for i in l1:
+#  print(i)
+
+#******************************Function in list
+# len/min/max/sorted
+
+#*******count
+# l1=[1,2,3,4,5,1,1,1,2,2,3]
+# print(l1.count(1))
+
+#********index 
+# l1=[1,2,3,4,5,1,1,1,2,2,3]
+# print(l1.index(4))
+
+# *****reverse
+# L = [2,1,5,7,0]
+# # permanently reverses the list
+# L.reverse()
+# print(L)
+
+# *********sort (vs sorted)
+# L = [2,1,5,7,0]
+# print(L)
+# print(sorted(L))
+# print(L)
+# L.sort()
+# print(L)
+
+# copy -> shallow means memory alg adrress pr ek naya list ban jata hai
+# L = [2,1,5,7,0]
+# print(L)
+# print(id(L))
+# L1 = L.copy()
+# print(L1)
+# print(id(L1))
 
 
 
