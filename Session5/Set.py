@@ -188,8 +188,10 @@ s = {1,2,3,4,5}
 # works -> all read functions
 # does't work -> write operations
 
-# When to use
-# 2D sets
+#* When to use  jab ham read only application banana chate hai to Frozen set use krennge
+
+# *2D sets  yes it is possiable
+
 # fs = frozenset([1,2,frozenset([3,4])])
 # fs
 
