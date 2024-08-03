@@ -88,5 +88,5 @@ def withdraw(self):
       print('sale chor')
     self.menu()
 
-
-obj=Atm()
+if __name__ == "__main__":
+    atm = Atm()
