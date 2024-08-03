@@ -9,7 +9,7 @@ class Atm:
     # print(id(self))
     self.pin = ''
     self.balance = 0
-    #self.menu()
+    self.menu()
 
   def menu(self):
     user_input = input("""
