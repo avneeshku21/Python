@@ -14,11 +14,11 @@
 
 
 #* Constuctor-
-# Constuctor is method but it is specail method
-# # kyuki ye khud call ho jata object k bante hi
-# Python m consturctor ko rename nhi kr skte
+# *Constuctor is method but it is specail method
+# *kyuki ye khud call ho jata object k bante hi
+# *Python m consturctor ko rename nhi kr skte
 
-# Benifit
+# *Benifit
 # configuration  realted code likhne k liye
 # Database s connect krne ka code
 # internet s connect krne ka code
