@@ -6,6 +6,10 @@
 # A user can check if a point lies on a given line
 # A user can find the distance between a given 2D point and a given line
 
+# Note- Do class k object apas m intract kr skte hai 
+#  agr bo same file me hai
+# otherwise import krna padta hai
+
 class Point:
     def __init__(self,x,y):
         self.x_cod=x
