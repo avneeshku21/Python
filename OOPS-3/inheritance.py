@@ -1,11 +1,10 @@
 
 # *class Relationships
-<<<<<<< HEAD
+
 # Two type of realtionships
 #dimaond shape
-=======
+
 # Two type of relationships
->>>>>>> c5dd0c50d6836539d7732d60f7744d1d69f4ea5b
 
 # 1 Aggregation- Means One Class owns the Other Class
 # Agrrigation m jo own class hai bo uske private variable ko access nhi kr skta 
@@ -53,11 +52,26 @@ cust.print_address()
 #********************Inheritance*************
 
 # *What is Inheritance
-# Triangle shape
-#* Benifite- Code Resuseablity
-
 # Inheritance allows us to define a class that inherits all the methods and properties from another class. Parent class is the class being inherited from, also called base class. Child class is the class that inherits from another class, also called derived class.
 
+#*Triangle shape
+#*Benifite- Code Resuseablity
+#*Child Class cant use Private member of parent Class
+
+# *Inheritance in summary
+# A class can inherit from another class.
+
+# Inheritance improves code reuse
+
+# Constructor, attributes, methods get inherited to the child class
+
+# The parent has no access to the child class
+
+# Private properties of parent are not accessible directly in child class
+
+# Child class can override the attributes or methods. This is called method overriding
+
+# super() is an inbuilt function which is used to invoke the parent class methods and constructor
 
 # Example
 
@@ -86,3 +100,54 @@ s = Student()
 print(s.name)
 s.login()
 s.enroll()
+
+# *****************Method Overriding
+
+# *agr Parent or child class m same naam ka method ho to hmesha child class ka method run hoga
+
+
+
+# class Phone:
+#     def __init__(self, price, brand, camera):
+#         print ("Inside phone constructor")
+#         self.__price = price
+#         self.brand = brand
+#         self.camera = camera
+
+#     def buy(self):
+#         print ("Buying a phone")
+
+# class SmartPhone(Phone):
+#     def buy(self):
+#         print ("Buying a smartphone")
+
+# s=SmartPhone(20000, "Apple", 13)
+
+# s.buy()
+
+#**********Supper Key Word*******************
+
+#Super keyword ka use kr k parent ke members or property  ko use kr skte ho
+
+# Supper Hamehs chlid class m use hota hai bahr use nhi krte 
+
+# Supper cant use  varibale or member
+
+
+# class Phone:
+#     def __init__(self, price, brand, camera):
+#         print ("Inside phone constructor")
+#         self.__price = price
+#         self.brand = brand
+#         self.camera = camera
+
+#     def buy(self):
+#         print ("Buying a phone")
+
+# class SmartPhone(Phone):
+#     def buy(self):
+#         print ("Buying a smartphone")
+#         #* syntax to call parent ka buy method
+#         super().buy()
+
+# s=SmartPhone(20000, "Apple", 13)
