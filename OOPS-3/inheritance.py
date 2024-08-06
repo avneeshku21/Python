@@ -1,6 +1,7 @@
 
 # *class Relationships
 # Two type of realtionships
+#dimaond shape
 
 # 1 Aggrigation- Means One Class owns the Other Class
 # Agrrigation m jo own class hai bo uske private varibale ko access nhi kr skta 
@@ -45,3 +46,39 @@ cust.print_address()
 # what about private attribute
 
 
+#********************Inheritance*************
+
+# *What is Inheritance
+# Triangle shape
+#* Benifite- Code Resuseablity
+
+# Inheritance allows us to define a class that inherits all the methods and properties from another class. Parent class is the class being inherited from, also called base class. Child class is the class that inherits from another class, also called derived class.
+
+
+# Example
+
+# parent
+class User:
+
+  def __init__(self):
+    self.name = 'nitish'
+    self.gender = 'male'
+
+  def login(self):
+    print('login')
+
+# child
+class Student(User):
+
+  def __init__(self):
+    self.rollno = 100
+
+  def enroll(self):
+    print('enroll into the course')
+
+u = User()
+s = Student()
+
+print(s.name)
+s.login()
+s.enroll()
