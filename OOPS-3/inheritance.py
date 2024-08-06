@@ -1,9 +1,9 @@
 
 # *class Relationships
-# Two type of realtionships
+# Two type of relationships
 
-# 1 Aggrigation- Means One Class owns the Other Class
-# Agrrigation m jo own class hai bo uske private varibale ko access nhi kr skta 
+# 1 Aggregation- Means One Class owns the Other Class
+# Agrrigation m jo own class hai bo uske private variable ko access nhi kr skta 
 # example
 class Customer:
 
