@@ -1,10 +1,14 @@
 
 # *class Relationships
+<<<<<<< HEAD
 # Two type of realtionships
 #dimaond shape
+=======
+# Two type of relationships
+>>>>>>> c5dd0c50d6836539d7732d60f7744d1d69f4ea5b
 
-# 1 Aggrigation- Means One Class owns the Other Class
-# Agrrigation m jo own class hai bo uske private varibale ko access nhi kr skta 
+# 1 Aggregation- Means One Class owns the Other Class
+# Agrrigation m jo own class hai bo uske private variable ko access nhi kr skta 
 # example
 class Customer:
 
