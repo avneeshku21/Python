@@ -109,11 +109,132 @@ L[100]
 #   print(e)
 
 # *else
-try:
-  f = open('sample1.txt','r')
-except FileNotFoundError:
-  print('file nai mili')
-except Exception:
-  print('kuch to lafda hai')
-else:
-  print(f.read())
+# try:
+#   f = open('sample1.txt','r')
+# except FileNotFoundError:
+#   print('file nai mili')
+# except Exception:
+#   print('kuch to lafda hai')
+# else:
+#   print(f.read())
+
+
+
+# ***finally
+# else
+# try:
+#   f = open('sample1.txt','r')
+# except FileNotFoundError:
+#   print('file nai mili')
+# except Exception:
+#   print('kuch to lafda hai')
+# else:
+#   print(f.read())
+# finally:
+#   print('ye to print hoga hi')
+
+
+#** raise Exception
+# In Python programming, exceptions are raised when errors occur at runtime. 
+# We can also manually raise exceptions using the raise keyword.
+
+# We can optionally pass values to the exception to clarify why that exception was raised
+
+#* Benifit
+# Handle kr skte hai koi error ko
+
+
+# class Bank:
+
+#   def __init__(self,balance):
+#     self.balance = balance
+
+#   def withdraw(self,amount):
+#     if amount < 0:
+#       raise Exception('amount cannot be -ve')
+#     if self.balance < amount:
+#       raise Exception('paise nai hai tere paas')
+#     self.balance = self.balance - amount
+
+# obj = Bank(10000)
+# try:
+#   obj.withdraw(15000)
+# except Exception as e:
+#   print(e)
+# else:
+#   print(obj.balance)
+
+
+# **creating custom exceptions
+# exception hierarchy in python
+
+# **why use custum exception
+#  For Application based Error
+# apne application based hone k liye custom exception class banate hai
+   
+
+
+
+# class MyException(Exception):
+#   def __init__(self,message):
+#     print(message)
+
+# class Bank:
+
+#   def __init__(self,balance):
+#     self.balance = balance
+
+#   def withdraw(self,amount):
+#     if amount < 0:
+#       raise MyException('amount cannot be -ve')
+#     if self.balance < amount:
+#       raise MyException('paise nai hai tere paas')
+#     self.balance = self.balance - amount
+
+# obj = Bank(10000)
+# try:
+#   obj.withdraw(5000)
+# except MyException as e:
+#   pass
+# else:
+#   print(obj.balance)
+
+
+# class SecurityError(Exception):
+
+#   def __init__(self,message):
+#     print(message)
+
+#   def logout(self):
+#     print('logout')
+
+# class Google:
+
+#   def __init__(self,name,email,password,device):
+#     self.name = name
+#     self.email = email
+#     self.password = password
+#     self.device = device
+
+#   def login(self,email,password,device):
+#     if device != self.device:
+#       raise SecurityError('bhai teri to lag gayi')
+#     if email == self.email and password == self.password:
+#       print('welcome')
+#     else:
+#       print('login error')
+
+
+
+# obj = Google('nitish','nitish@gmail.com','1234','android')
+
+# try:
+#   obj.login('nitish@gmail.com','1234','windows')
+# except SecurityError as e:
+#   e.logout()
+# else:
+#   print(obj.name)
+# finally:
+#   print('database connection closed')
+
+
