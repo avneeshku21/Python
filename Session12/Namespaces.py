@@ -35,3 +35,5 @@
 
 # temp()
 # print(a)
+
+# *built-in Scope
