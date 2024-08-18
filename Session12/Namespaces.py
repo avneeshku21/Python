@@ -1,5 +1,5 @@
 # Namespaces
-# A namespace is a space that holds names(identifiers).Programmatically speaking, namespaces are dictionary of identifiers(keys) and their objects(values)
+# A namespace is a space that holds names(identifiers). Programmatically speaking, namespaces are dictionary of identifiers(keys) and their objects(values)
 
 # There are 4 types of namespaces:
 
@@ -32,6 +32,18 @@
 #   # local var
 #   a = 3
 #   print(b)
+
+# temp()
+# print(a)
+
+
+# *local and global -> editing global
+# a = 2
+
+# def temp():
+#   # local var
+#   a += 1
+#   print(a)
 
 # temp()
 # print(a)
