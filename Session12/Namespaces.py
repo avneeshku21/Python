@@ -36,9 +36,8 @@
 # temp()
 # print(a)
 
-<<<<<<< HEAD
+
 # *built-in Scope
-=======
 
 # *local and global -> editing global
 # a = 2
