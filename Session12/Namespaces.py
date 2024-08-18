@@ -80,4 +80,28 @@
 # print(a)
 # print(z)
 # print(a)
->>>>>>> 1a48b569d796e33689d4ef4f84430debda35de88
+
+# built-in scope
+# import builtins
+# print(dir(builtins))
+
+# renaming built-ins
+# L = [1,2,3]
+# print(max(L))
+# def max():
+#   print('hello')
+
+# print(max(L))
+
+
+# *Enclosing scope
+# def outer():
+#   def inner():
+#     print(a)
+#   inner()
+#   print('outer function')
+
+
+# outer()
+# print('main program')
+
