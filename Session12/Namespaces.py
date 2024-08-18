@@ -67,4 +67,14 @@
 #   print(a)
 
 # temp()
+
+# local and global -> function parameter is local
+# def temp(z):
+#   # local var
+#   print(z)
+
+# a = 5
+# temp(5)
+# print(a)
+# print(z)
 # print(a)
