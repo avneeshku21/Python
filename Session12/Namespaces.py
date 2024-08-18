@@ -47,3 +47,24 @@
 
 # temp()
 # print(a)
+
+# a = 2
+
+# def temp():
+#   # local var
+#   global a
+#   a += 1
+#   print(a)
+
+# temp()
+# print(a)
+
+# local and global -> global created inside local
+# def temp():
+#   # local var
+#   global a
+#   a = 1
+#   print(a)
+
+# temp()
+# print(a)
