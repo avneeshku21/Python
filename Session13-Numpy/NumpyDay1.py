@@ -70,5 +70,30 @@ import numpy as np
 # np.linspace(-10,10,10,dtype=int)
 
 # *np.identity # Identity Matrix
-np.identity(3)
+# np.identity(3)
+
+# *******************Array Attributes************
+a1 = np.arange(10,dtype=int)
+a2 = np.arange(12,dtype=float).reshape(3,4)
+a3 = np.arange(8).reshape(2,2,2)
+
+# *ndim (number of dimesion) give array ko btata hai 1d h 2d 
+# a3.ndim
+
+#* shape
+# print(a3.shape)
+
+
+# *size Number of element present
+# print(a2.size)
+# a2
+
+# *itemsize Memrory size
+# a3.itemsize
+
+
+# *dtype item ka datatype batata hai
+print(a1.dtype)
+print(a2.dtype)
+print(a3.dtype)
 
