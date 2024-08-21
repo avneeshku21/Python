@@ -72,6 +72,7 @@ import numpy as np
 # *np.identity # Identity Matrix
 # np.identity(3)
 
+<<<<<<< HEAD
 # *******************Array Attributes************
 a1 = np.arange(10,dtype=int)
 a2 = np.arange(12,dtype=float).reshape(3,4)
@@ -96,4 +97,10 @@ a3 = np.arange(8).reshape(2,2,2)
 print(a1.dtype)
 print(a2.dtype)
 print(a3.dtype)
+=======
+# * Changing Datatype
+
+# astype
+a3.astype(np.int32)
+>>>>>>> 7cc7c67b0b6a5a2cf19799bd906ff96ef258e9ef
 
