@@ -181,3 +181,29 @@ a2[::2,1::2]
 
 # for i in np.nditer(a3): #nditer func will chnge into oned array
 #     print(i)
+
+
+# *Transpose
+np.transpose(a2)
+a2.T
+
+# ravel # it convert 1D array
+a3.ravel()
+
+# ***Stacking*********************
+
+# horizontal stacking
+# a4 = np.arange(12).reshape(3,4)
+# a5 = np.arange(12,24).reshape(3,4)
+# a5
+
+# np.hstack((a4,a5))
+
+# Vertical stacking
+# np.vstack((a4,a5))
+
+# Splitting
+# horizontal splitting
+#np.hsplit(a4,5)
+
+# np.vsplit(a5,2)
