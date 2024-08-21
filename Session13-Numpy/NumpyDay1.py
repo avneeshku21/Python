@@ -72,7 +72,6 @@ import numpy as np
 # *np.identity # Identity Matrix
 # np.identity(3)
 
-<<<<<<< HEAD
 # *******************Array Attributes************
 a1 = np.arange(10,dtype=int)
 a2 = np.arange(12,dtype=float).reshape(3,4)
@@ -102,4 +101,26 @@ print(a3.dtype)
 
 # astype
 a3.astype(np.int32)
+
+#**************** Array Operations*************
+
+# a1 = np.arange(12).reshape(3,4)
+# a2 = np.arange(12,24).reshape(3,4)
+
+# a2
+
+# scalar operations
+
+# *arithmetic
+# a1 ** 2
+
+# *relational
+# a2 == 15
+
+# * vector operations
+# arithmetic
+# a1 ** a2
+
+#*************************** Array Functions*******
+
 
