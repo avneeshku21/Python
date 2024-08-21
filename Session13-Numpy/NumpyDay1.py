@@ -73,9 +73,9 @@ import numpy as np
 # np.identity(3)
 
 # *******************Array Attributes************
-a1 = np.arange(10,dtype=int)
-a2 = np.arange(12,dtype=float).reshape(3,4)
-a3 = np.arange(8).reshape(2,2,2)
+# a1 = np.arange(10,dtype=int)
+# a2 = np.arange(12,dtype=float).reshape(3,4)
+# a3 = np.arange(8).reshape(2,2,2)
 
 # *ndim (number of dimesion) give array ko btata hai 1d h 2d 
 # a3.ndim
@@ -93,14 +93,14 @@ a3 = np.arange(8).reshape(2,2,2)
 
 
 # *dtype item ka datatype batata hai
-print(a1.dtype)
-print(a2.dtype)
-print(a3.dtype)
+# print(a1.dtype)
+# print(a2.dtype)
+# print(a3.dtype)
 
 # * Changing Datatype
 
 # astype
-a3.astype(np.int32)
+# a3.astype(np.int32)
 
 #**************** Array Operations*************
 
@@ -123,4 +123,43 @@ a3.astype(np.int32)
 
 #*************************** Array Functions*******
 
+# a1=np.random.random((3,3))
 
+# a1=np.round(a1*100)
+
+#*max/min/sum/prod
+# 0 -> col and 1 -> row
+# np.max(a1)
+
+# np.max(a1 ,axis=1)
+# np.min(a1)
+# np.prod(a1,axis=0)
+
+#* mean/median/std/var
+# np.var(a1,axis=1)
+
+# *trigonomoetric functions
+# np.sin(a1)
+
+# *dot product
+# a2 = np.arange(12).reshape(3,4)
+# a3 = np.arange(12,24).reshape(4,3)
+
+# np.dot(a2,a3)
+
+# *log and exponents
+# np.exp(a1)
+
+# log and exponents
+# np.exp(a1)
+# round/floor/ceil
+
+# np.ceil(np.random.random((2,3))*100)
+
+### ************Indexing and Slicing************
+a1 = np.arange(10)
+a2 = np.arange(12).reshape(3,4)
+a3 = np.arange(8).reshape(2,2,2)
+
+# a2[1,0]
+# a3[1,0,1] #3rd me konse 2nd array then row then col
