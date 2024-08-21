@@ -70,5 +70,10 @@ import numpy as np
 # np.linspace(-10,10,10,dtype=int)
 
 # *np.identity # Identity Matrix
-np.identity(3)
+# np.identity(3)
+
+# * Changing Datatype
+
+# astype
+a3.astype(np.int32)
 
