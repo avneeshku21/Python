@@ -163,3 +163,21 @@ a3 = np.arange(8).reshape(2,2,2)
 
 # a2[1,0]
 # a3[1,0,1] #3rd me konse 2nd array then row then col
+
+
+#**Slicing
+# a1[2:5]
+
+a2[0:2,1::2]
+print(a2[::2,1::2])
+a2[::2,1::2]
+
+# **iterating
+# for i in a1:
+#     print(i)
+
+# for i in a2:
+#     print(i)
+
+# for i in np.nditer(a3): #nditer func will chnge into oned array
+#     print(i)
