@@ -24,3 +24,7 @@ a = np.arange(10)
 #   return np.mean((actual - predicted)**2)
 
 # mse(actual,predicted)
+
+
+# binary cross entropy
+# np.mean((actual - predicted)**2)
