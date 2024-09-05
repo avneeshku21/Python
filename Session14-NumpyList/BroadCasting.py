@@ -1,9 +1,8 @@
-# Broadcasting
+# *Broadcasting
 
 # The term broadcasting describes how NumPy treats arrays with different shapes during arithmetic operations.
 
 # The smaller array is “broadcast” across the larger array so that they have compatible shapes.
-
 
 # Broadcasting Rules
 # 1. Make the two arrays have the same number of dimensions.
