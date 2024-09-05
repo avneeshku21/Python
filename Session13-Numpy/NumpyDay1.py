@@ -190,7 +190,7 @@ a2.T
 # ravel # it convert 1D array
 a3.ravel()
 
-# ***Stacking*********************
+# ************Stacking*********************
 
 # horizontal stacking
 # a4 = np.arange(12).reshape(3,4)
