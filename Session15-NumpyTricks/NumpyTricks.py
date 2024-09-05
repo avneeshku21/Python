@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 #*np.sort
 # *Return a sorted  copy of an array
@@ -8,6 +7,31 @@ a=np.random.randint(1,100,24)
 print(a)
 b=np.random.randint(1,100,24).reshape(6,4)
 print(b)
-=======
-## Numpy Tricks
->>>>>>> e39de6e722a52fddbf018759d8ea6bf9b64f1cca
+s=np.sort(a)
+s=np.sort(a)[::-1] # for Descending order
+print(s)
+
+# *two dim array k liye np.sort(b=axis-0)
+
+
+
+#******************* Append
+# *np. append()
+# *The numpy.append() appends values along the mentioned axis at the end of the array
+
+# *Two D array me ek exiting columb aad krne k liye
+# np.append(b,np.random.random((b.shape[0],1)),axis=1)
+
+
+#****************** Concatenate
+# numpy.concatenate() function concatenate a sequence of arrays along an existing axis.
+# concatenate is moslty used for table of data
+
+# c = np.arange(6).reshape(2,3)
+# d = np.arange(6,12).reshape(2,3)
+
+# *columb wise
+# np.concatenate((c,d),axis=0)
+
+#*Rowwise
+# np.concatenate((c,d),axis=1)
