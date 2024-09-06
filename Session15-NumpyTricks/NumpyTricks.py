@@ -42,11 +42,10 @@ import numpy as np
 # code
 # e = np.array([1,1,2,2,3,3,4,4,5,5,6,6])
 
-<<<<<<< HEAD
-print(np.unique(e))
-=======
+# print(np.unique(e))
 # print(np.unique(e))
 
 # np.expand_dims
 # With the help of Numpy.expand_dims() method, we can get the expanded dimensions of an array
->>>>>>> 2f41d884d73290e40768324d2c2e6779103b6380
+
+# Using expand_dims  we can  convert 1D array to 2D array  or 2D array to 3D array
