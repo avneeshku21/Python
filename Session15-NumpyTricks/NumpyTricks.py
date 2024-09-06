@@ -3,13 +3,13 @@
 # *Return a sorted  copy of an array
 
 import numpy as np
-a=np.random.randint(1,100,24)
-print(a)
-b=np.random.randint(1,100,24).reshape(6,4)
-print(b)
-s=np.sort(a)
-s=np.sort(a)[::-1] # for Descending order
-print(s)
+# a=np.random.randint(1,100,24)
+# print(a)
+# b=np.random.randint(1,100,24).reshape(6,4)
+# print(b)
+# s=np.sort(a)
+# s=np.sort(a)[::-1] # for Descending order
+# print(s)
 
 # *two dim array k liye np.sort(b=axis-0)
 
@@ -35,3 +35,11 @@ print(s)
 
 #*Rowwise
 # np.concatenate((c,d),axis=1)
+
+
+# ******************np.unique
+# With the help of np.unique() method, we can get the unique values from an array given as parameter in np.unique() method.
+# code
+e = np.array([1,1,2,2,3,3,4,4,5,5,6,6])
+
+print(np.unique(e))
