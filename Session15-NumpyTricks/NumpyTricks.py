@@ -40,6 +40,9 @@ import numpy as np
 # ******************np.unique
 # With the help of np.unique() method, we can get the unique values from an array given as parameter in np.unique() method.
 # code
-e = np.array([1,1,2,2,3,3,4,4,5,5,6,6])
+# e = np.array([1,1,2,2,3,3,4,4,5,5,6,6])
 
-print(np.unique(e))
+# print(np.unique(e))
+
+# np.expand_dims
+# With the help of Numpy.expand_dims() method, we can get the expanded dimensions of an array
