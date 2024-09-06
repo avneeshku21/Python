@@ -49,3 +49,16 @@ import numpy as np
 # With the help of Numpy.expand_dims() method, we can get the expanded dimensions of an array
 
 # Using expand_dims  we can  convert 1D array to 2D array  or 2D array to 3D array
+
+#***** code
+a=np.random.randint(1,100,24)
+# a.shape
+# print(np.expand_dims(a,axis=0).shape)
+# print(np.expand_dims(a,axis=1).shape)
+
+# ****np.where
+# The numpy.where() function returns the indices of elements in an input array where the given condition is satisfied.
+# print(np.where(a>50))
+# print(np.where(condition, true,false))
+print(np.where(a>50, 0,a))
+print(np.where(a%2==0, 0,a))
