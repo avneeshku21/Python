@@ -1,14 +1,15 @@
-# Strings are sequence of Characters
 
-# In Python specifically, strings are a sequence of Unicode Characters
+# *Strings are sequence of Characters
 
-# Creating Strings
-# Accessing Strings
-# Adding Chars to Strings
-# Editing Strings
-# Deleting Strings
-# Operations on Strings
-# String Functions
+# *In Python specifically, strings are a sequence of Unicode Characters
+
+# *Creating Strings
+# *Accessing Strings
+# *Adding Chars to Strings
+# *Editing Strings
+# *Deleting Strings
+# *Operations on Strings
+# *String Functions
 
 # s = 'hello'
 # s = "hello"
@@ -43,12 +44,13 @@ s = 'hello world'
 del s
 print(s)
 
-# Operations on Strings
-# Arithmetic Operations
-# Relational Operations
-# Logical Operations
-# Loops on Strings
-# Membership Operations
+# *****************Operations on Strings
+
+# *Arithmetic Operations
+# *Relational Operations
+# *Logical Operations
+# *Loops on Strings
+# *Membership Operations
 
 # print('delhi' + ' ' + 'mumbai')
 
