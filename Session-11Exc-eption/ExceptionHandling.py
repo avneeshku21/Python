@@ -19,8 +19,8 @@
 
 # *IndexError
 # The IndexError is thrown when trying to access an item at an invalid index.
-L = [1,2,3]
-L[100]
+# L = [1,2,3]
+# L[100]
 
 # *ModuleNotFoundError
 # The ModuleNotFoundError is thrown when a module could not be found.
@@ -92,11 +92,11 @@ L[100]
 
 # *catching specific exception
 # try:
-#   m=5
-#   f = open('sample1.txt','r')
-#   print(f.read())
-#   print(m)
-#   print(5/2)
+  m=5
+  f = open('sample1.txt','r')
+  print(f.read())
+  print(m)
+  print(5/2)
 #   L = [1,2,3]
 #   L[100]
 # except FileNotFoundError:

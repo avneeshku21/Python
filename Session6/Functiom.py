@@ -104,12 +104,12 @@
 
 # ********Nested Functions
 
-def f():
-  def g():
-    print('inside function g')
-    f()
-  g()
-  print('inside function f')
+# def f():
+#   def g():
+#     print('inside function g')
+#     f()
+#   g()
+#   print('inside function f')
 
 # *Functions are 1st class citizens
 # ******They act as data type
@@ -125,12 +125,11 @@ def f():
 # x = square
 # id(x)
 # x(3)
+def func_a():
+    print('inside func_a')
 
-# def func_a():
-#     print('inside func_a')
+def func_b(z):
+    print('inside func_c')
+    return z()
 
-# def func_b(z):
-#     print('inside func_c')
-#     return z()
-
-# print(func_b(func_a))
+print(func_b(func_a))

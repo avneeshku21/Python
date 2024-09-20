@@ -20,8 +20,8 @@
 # print(s)
 
 # Positive Indexing
-s = 'hello world'
-print(s[41]) ## outside the range
+# s = 'hello world'
+# print(s[41]) ## outside the range
 
 # ******Slicing
 # s = 'hello world'
@@ -34,15 +34,15 @@ print(s[41]) ## outside the range
 # print(s[-1:-6:-1])
 
 #******Editing and Deleting in Strings
-s = 'hello world'
-s[0] = 'H'
+# s = 'hello world'
+# s[0] = 'H'
 
 # Noteeee......Python string are immutable
 
 #************ Delet
-s = 'hello world'
-del s
-print(s)
+# s = 'hello world'
+# del s
+# print(s)
 
 # *****************Operations on Strings
 
@@ -58,7 +58,10 @@ print(s)
 
 # 'delhi' != 'delhi'
 
-# 'mumbai' > 'pune'
+
+print('mumbai' > 'pune')
+print('pune'>'mumbai')
+
 # # lexiographically
 # print(
 # 'Pune' > 'pune')

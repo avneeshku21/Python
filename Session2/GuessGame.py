@@ -1,7 +1,7 @@
 import random
 jackpot=random.randint(1,100)
-
 guess=int(input("Guess the Number: "))
+
 while guess!=jackpot:
     if guess==jackpot:
        print("Right Guess")
